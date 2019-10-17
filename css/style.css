@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+}
+section{
+	background: $000000;
+	background-image: url(../images/bg1.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 70%;
+}
+header{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+
+}
+.lo-go{
+	width: 20%;
+	float: left;
+
+}
+.logo{
+	color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav{
+	width: 80%;
+	float: right;
+
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	display: block;
+	margin: 10px 5px;
+    padding: 7px 14px;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+	background: #3fa9f5;
+	border-radius: 0px 30px 0px 30px;
+}
+.slogan{
+	font-size: 22px;
+    padding-left: 60px;
+    padding-top: 180px;
+}
+.sl1{
+	margin-bottom: 5px;
+}
+.sl2{
+	margin-top: 0px;
+	margin-left: 70px;
+	color: #3fa9f5;
+}
+.description{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.button{
+	color: #000000;
+	text-decoration: none;
+	padding: 15px;
+	transition-duration: 0.3s;
+	margin-left: 65px;
+
+}
+.button:hover{
+	background: #3fa9f5;
+	border-radius: 30px;
+}
